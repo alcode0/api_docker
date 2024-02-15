@@ -6,7 +6,7 @@ app.use(express.json())
 
 app.get("/",(req,res)=>{
 
-    res.status(200).json({message:"Estoy pensando en ti mi gatuvela"})
+    res.status(200).json({Batman_Message:"Batman extraña a su Gatubela"})
 })
 
 app.listen(3000,(req,res)=>{
